@@ -55,10 +55,10 @@ Windows は独立して管理することができ、'スクロール可能性' 
 ```
     tar zxvf ncurses<version>.tar.gz  # アーカイブの伸張と展開
     cd ncurses<version>               # ncurses ディレクトリに移動
-    ./configure                             # 環境に合わせてビルドを設定する
-    make                                    # ビルド
-    su root                                 # root になる
-    make install                            # インストール
+    ./configure                       # 環境に合わせてビルドを設定する
+    make                              # ビルド
+    su root                           # root になる
+    make install                      # インストール
 ```
 
 RPM を使う
