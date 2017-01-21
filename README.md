@@ -1,3 +1,3 @@
-# ncurses プログラミング HOWTO (日本語訳) Common Lisp 用
+# ncurses プログラミング HOWTO (日本語訳)
 
-[NCURSES Programming HOWTO](http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/index.html) を日本語訳し、Common Lisp で使う為に書いておきます。
+[NCURSES Programming HOWTO](http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/index.html) を日本語 & Common Lisp で翻訳します。
