@@ -6,3 +6,5 @@
 2. [Hello World !!!](2/README.md)
 3. [The Gory Details](3/README.md)
 4. [Initialization](4/README.md)
+5. [A Word about Windows](5/README.md)
+6. [Output functions](6/README.md)
