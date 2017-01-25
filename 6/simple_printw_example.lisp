@@ -1,13 +1,13 @@
 (require :asdf)
-(require :cl-charms)
+(require :cl-charms)                            ;; ncurses ライブラリ
 
-(defvar mesg (string "Just a string"))
-(defvar row 0)
-(defvar col 0)
+(defvar mesg (string "Just a string"))          ;; スクリーンに表示するメッセージ
+(defvar row 0)                                  ;; スクリーンに表示する行の保存
+(defvar col 0)                                  ;; スクリーンに表示する列の保存
 
-(charms/ll:initscr)
-(charms/ll:getmaxyx charms/ll:*STDSCR* row col)
-(charms/ll:mvprintw
+(charms/ll:initscr)                             ;; curses モード開始
+(charms/ll:getmaxyx charms/ll:*STDSCR* row col) ;; 行番号と列番号を取得
+(charms/ll:mvprintw                             ;; スクリーンの真ん中に出力
  (ceiling (/ row 2))
  (ceiling (/ (- col (length mesg)) 2))
  "%s" :string mesg)
