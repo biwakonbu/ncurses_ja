@@ -17,8 +17,7 @@
  0
  (format nil "This screen has %d rows and %d columns~%")
  :int row
- :int col
- :string mesg)
+ :int col)
 (charms/ll:printw "Try resizing your window (if possible) and then run this program again")
 (charms/ll:refresh)
 (charms/ll:getch)
